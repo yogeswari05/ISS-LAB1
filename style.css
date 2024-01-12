@@ -1,0 +1,78 @@
+body{
+   margin:0;
+}
+h2:hover{
+   color:rgb(18, 137, 137);
+}
+p{
+   font-size: 17px;
+   font-family:'Times New Roman', Times, serif;
+}
+.right{
+   text-align: right;
+}
+.style_{
+   font-family: sans-serif;
+   font-size: 20px;
+}
+.section{
+   display: flex;
+   justify-content: space-between;
+}
+#logo{
+   height: 400px;
+   width: 400px;
+   padding-right: 20px;
+}
+#logotxt{
+   padding-right: 2px;
+   text-align: justify;
+}
+#nounder{
+   text-decoration: none;
+}
+tr:hover{
+   background-color: rgb(14, 122, 129);
+}
+.t1 #odd{
+   background-color: aquamarine;
+}
+.t1 #even {
+   background-color: rgb(9, 81, 86);
+}
+.t1 #head{
+   color: rgb(6, 137, 137);
+   background-color: rgb(20, 69, 69);
+}
+#gb_white{
+   color: white;
+   background-color: green;
+}
+hr{
+   width: 70%;
+}
+table{
+   border-collapse: collapse;
+   border:1px solid black;
+   text-align: center;
+}
+th, td{
+   padding: 8px;
+}
+.t2 td, th{
+   border-left: 3px dotted black;
+   border-right: 3px solid rgb(46, 196, 219);
+   border-top: 3px solid rgb(9, 48, 243);
+   border-bottom: 3px solid rgb(141, 12, 132);
+}
+.t2{
+   margin-left: auto;
+   margin-right: auto;
+}
+.frame{
+   background-color: blueviolet;
+}
+footer{
+   text-align: right;
+   /* margin: auto; */
+}
